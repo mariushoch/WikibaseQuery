@@ -23,7 +23,7 @@ php maintenance/install.php --dbtype $DBTYPE --dbuser root --dbname its_a_mw --d
 
 cd extensions/WikibaseQuery
 composer install --prefer-source
-composer require 'phpunit/phpunit=3.7.*' --prefer-source
+composer require 'phpunit/phpunit=3.7.*' --prefer-source -o
 
 cd ../..
 
